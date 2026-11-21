@@ -3,7 +3,7 @@ import { FormEvent, ReactNode, useEffect, useState } from 'react'
 type Route = 'home' | 'about' | 'services' | 'pricing' | 'portfolio' | 'project' | 'contact' | 'faq'
 
 const images = {
-  hero: '/images/atelier-hero.png',
+  hero: `${import.meta.env.BASE_URL}images/atelier-hero.png`,
   living: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1800&q=88',
   kitchen: 'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1600&q=88',
   bedroom: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1600&q=88',

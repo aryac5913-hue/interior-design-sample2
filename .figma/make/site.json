@@ -1,0 +1,10 @@
+{
+  "description": "Explore luxury interior design services, pricing and projects across India, and connect with a studio to plan a personalized home or office.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
